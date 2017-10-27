@@ -8,5 +8,5 @@ import sys
 BASE_DIR=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)#添加环境变量
 from conf import settings
-from core import  main
-main.login()
+from core import main
+#main.login()
